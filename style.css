@@ -1,3 +1,9 @@
+/**
+  * Theming
+*/
+* {
+  box-sizing: border-box;
+}
 html,
 body {
   margin: 0;
@@ -275,20 +281,6 @@ body {
   position: absolute;
   overflow-y: auto;
   opacity: 0;
-}
-/**
-  * Theming
-*/
-* {
-  box-sizing: border-box;
-}
-
-html,
-body {
-  background-color: #111;
-  font-family: "Roboto", sans-serif;
-  text-align: center;
-  color: #fff;
 }
 
 .carousel-container {
