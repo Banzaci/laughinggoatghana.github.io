@@ -27,32 +27,27 @@ img {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 100%;
 }
 
 .location {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
+  margin: 50px auto 20px;
   width: 100%;
-  height: 100%;
 }
 
-.location-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 80%px;
-  margin: 0 auto;
-  border-top: 2px solid #CCC;
-}
 .location-img {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 650px;
-  margin: 0 auto;
+  height: 80%;
+  width: auto;
+}
+.email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /**
   * style variables
@@ -201,8 +196,6 @@ img {
   .carousel__indicator:nth-of-type(5) {
   opacity: 1;
 }
-
---
 
 .carousel__activator:nth-of-type(6):checked ~ .carousel__track {
   transform: translateX(-400%);
