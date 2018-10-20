@@ -408,49 +408,49 @@ h3 {
 
 .carousel__slide:nth-of-type(1),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(1) {
-  background-image: url("./images/img2.jpg");
+  background-image: url("./temp/images/img2.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .carousel__slide:nth-of-type(2),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(2) {
-  background-image: url("./images/img1.jpg");
+  background-image: url("./temp/images/img1.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .carousel__slide:nth-of-type(3),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(3) {
-  background-image: url("./images/img3.jpg");
+  background-image: url("./temp/images/img3.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .carousel__slide:nth-of-type(4),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(4) {
-  background-image: url("./images/img4.jpg");
+  background-image: url("./temp/images/img4.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .carousel__slide:nth-of-type(5),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(5) {
-  background-image: url("./images/img5.jpg");
+  background-image: url("./temp/images/img5.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .carousel__slide:nth-of-type(6),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(6) {
-  background-image: url("./images/img6.jpg");
+  background-image: url("./temp/images/img6.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .carousel__slide:nth-of-type(7),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(7) {
-  background-image: url("./images/img7.jpg");
+  background-image: url("./temp/images/img7.jpg");
   background-size: cover;
   background-position: center;
 }
