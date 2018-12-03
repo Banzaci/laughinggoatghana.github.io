@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "npm run build && next export"
+  },
+  "dependencies": {
+    "fetch": "^1.1.0",
+    "instafeed.js": "^1.4.1",
+    "node-fetch": "^2.3.0",
+    "react": "^16.6.3"
+  }
+}
