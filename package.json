@@ -12,8 +12,5 @@
     "node-fetch": "^2.3.0",
     "react": "^16.6.3",
     "webpack": "^4.26.1"
-  },
-  "devDependencies": {
-    "gh-pages": "^2.0.1"
   }
 }

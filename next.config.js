@@ -1,5 +1,6 @@
 const isProd = process.env.NODE_ENV === 'production'
 const assetPrefix = isProd ? '/laughinggoatghana.github.io' : ''
+const webpack = require('webpack')
 module.exports = {
   assetPrefix: isProd ? assetPrefix : '',
   webpack: config => {
