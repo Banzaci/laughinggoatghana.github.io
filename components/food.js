@@ -7,7 +7,7 @@ const FoodBlock = ({title, items}) => (
     <h2>{title}</h2>
     <ul>
       {
-        items.map(item => <li>{item}</li>)
+        items.map((item, index) => <li key={index}>{item}</li>)
       }
     </ul>
     <style jsx>{`

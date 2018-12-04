@@ -20,8 +20,8 @@ const tours = [
   },
 ]
 
-const render = () => tours.map(({ title, image, ingress }) => (
-  <div className="tour">
+const render = () => tours.map(({ title, image, ingress }, index) => (
+  <div className="tour" key={index}>
     <Item
       title={title}
       image={image}

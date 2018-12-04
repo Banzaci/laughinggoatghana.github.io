@@ -3,6 +3,6 @@ import Surfing from '../components/surfing'
 import Image from '../components/image'
 
 export default () => (<Main>
-    <Image src="./static/images/surfing.jpg" />
+    <Image src="/static/images/surfing.jpg" />
     <Surfing />
   </Main>)

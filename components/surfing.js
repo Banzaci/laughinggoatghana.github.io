@@ -21,13 +21,13 @@ const surfing = [
   },
 ]
 
-const render = () => surfing.map(({ title, image, ingress }) => (
-  <div className="surf">
+const render = () => surfing.map(({ title, image, ingress }, index) => (
+  <div className="surf" key={index}>
     <Item
       title={title}
       image={image}
       ingress={ingress}
-      style={{ maxWidth:'280px', maxHeight:'200px;' }}
+      style={{ maxWidth:'280px', maxHeight:'200px' }}
     />
     <style jsx>{`
       .surf {

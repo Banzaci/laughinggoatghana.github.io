@@ -24,7 +24,7 @@ const styles = {
 }
 
 const navigation = () => (linkList.map(({name, url})=> <li>
-<Link prefetch href={url} as={`${process.env.ASSET_PREFIX}/page1`}><a className="nav">{name}</a></Link></li> ))
+<Link prefetch href={url}><a className="nav">{name}</a></Link></li> ))
 const logo = () => (<div style={styles.img}><img src="./static/LOGO_white.svg" /></div>)
 
 export default () => (
