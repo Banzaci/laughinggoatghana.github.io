@@ -3,8 +3,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "export": "next build && next export && touch out/.nojekyll && touch out/CNAME && echo \"laughinggoatghana.com\" >> out/CNAME git add out && git commit -m \"Deploy Next.js to laughinggoatghana\" && git subtree push --prefix out/ origin master",
-    "deploy": "rm -rf node_modules/.cache && next build && next export && touch out/.nojekyll && git add out/ && git commit -m \"Deploy Next.js to gh-pages\" && git subtree push --prefix out origin master"
+    "export": "next build && next export && touch out/.nojekyll && touch out/CNAME && echo \"laughinggoatghana.com\" >> out/CNAME git add out && git commit -m \"Deploy Next.js to laughinggoatghana\" && git subtree push --prefix out origin master",
   },
   "dependencies": {
     "fetch": "^1.1.0",
