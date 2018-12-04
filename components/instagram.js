@@ -30,11 +30,11 @@ class Instagram extends Component {
     this.state = { data: [] };
   }
   componentDidMount(){
-    // fetch(url)
-    //   .then(res => res.json())
-    //   .then(({data}) => {
-    //     this.setState({data})
-    //   });
+    fetch(url)
+      .then(res => res.json())
+      .then(({data}) => {
+        this.setState({data})
+      });
   }
   render() {
     const container = this.state.data.map(({ images })=> render(images.low_resolution));
