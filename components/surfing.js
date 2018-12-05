@@ -6,17 +6,17 @@ import Paragraf from './paragraf'
 const surfing = [
   {
     title:"Surf rentals at the beach",
-    image:"./static/surfing/coconut.jpg",
+    image:"../static/surfing/coconut.jpg",
     ingress:"You can both rent surfboards at Laughing Goat and at the beach. ",
   },
   {
     title:"Early morning surf",
-    image:"./static/surfing/morning.jpg",
+    image:"../static/surfing/morning.jpg",
     ingress:"We try to surf as much as possible. Here, 5:30am.",
   },
   {
     title:"Skateboarding",
-    image:"./static/surfing/sk8.jpg",
+    image:"../static/surfing/sk8.jpg",
     ingress:"When there's no surf you can always have a session in the pool.",
   },
 ]

@@ -6,32 +6,32 @@ import Paragraf from './paragraf'
 const rooms = [
   {
     title:"Double Room with Private Bathroom ",
-    image:"/static/rooms/room4.jpg",
+    image:"../static/rooms/room4.jpg",
     ingress:"Price, GH₵120 per room & per night.",
   },
   {
     title:"Triple Room with Private Bathroom",
-    image:"/static/rooms/room2.jpg",
+    image:"../static/rooms/room2.jpg",
     ingress:"Price, GH₵130 per room & per night.",
   },
   {
     title:"Quadruple Room with Private Bathroom",
-    image:"/static/rooms/room1.jpg",
+    image:"../static/rooms/room1.jpg",
     ingress:"Price, GH₵155 per room & per night.",
   },
   {
     title:"Budget Single Room",
-    image:"/static/rooms/room5.jpg",
+    image:"../static/rooms/room5.jpg",
     ingress:"For one person. Price, GH₵70 per room & per night.",
   },
   {
     title:"Canvas Tent #1",
-    image:"/static/rooms/room4.jpg",
+    image:"../static/rooms/room4.jpg",
     ingress:"Up to four people, GH₵120 per tent & per night.",
   },
   {
     title:"Canvas Tent #2",
-    image:"/static/rooms/room4.jpg",
+    image:"../static/rooms/room4.jpg",
     ingress:"Up to six people, GH₵150 per tent & per night.",
   }
 ]

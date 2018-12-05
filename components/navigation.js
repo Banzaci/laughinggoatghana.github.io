@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const linkList = [
   {name:'Home', url:'/'},
-  {name:'Rooms', url:`/rooms`},
+  {name:'Rooms', url:'/rooms'},
   {name:'Tours', url:'/tours'},
   {name:'Surfing', url:'/surfing'},
   {name:'Food', url:'/food'},
@@ -23,9 +23,9 @@ const styles = {
   },
 }
 
-const navigation = () => (linkList.map(({name, url})=> <li>
-<Link prefetch href={url}><a className="nav">{name}</a></Link></li> ))
-const logo = () => (<div style={styles.img}><img src="./static/LOGO_white.svg" /></div>)
+const navigation = () => (linkList.map(({name, url}, index)=> <li>
+<Link prefetch href={url} key={index}><a className="nav">{name}</a></Link></li> ))
+const logo = () => (<div style={styles.img}><img src="../static/LOGO_white.svg" /></div>)
 
 export default () => (
   <nav style={styles.container}>

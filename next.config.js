@@ -1,6 +1,6 @@
 // const webpack = require('webpack')
 const isProd = process.env.NODE_ENV === 'production'
-const assetPrefix = isProd ? '/laughinggoatghana.github.io' : ''
+const assetPrefix = isProd ? 'https://laughinggoatghana.com' : ''
 module.exports = {
   webpack: (config, { defaultLoaders }) => {
     config.module.rules.push({
