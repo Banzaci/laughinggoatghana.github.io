@@ -5,7 +5,7 @@ export default () => (
   <div>
     <Head>
       <title>Laughing Goat Ghana</title>
-      <meta name="viewport" content="initial-scale=1.0, width=device-width" key="viewport" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </Head>
     <style jsx global>{`
     * { box-sizing: border-box; margin: 0; padding: 0; height: auto; }

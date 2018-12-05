@@ -12,7 +12,7 @@ const Home = () => (
     <Block>
       <Container>
         <div className="ingress">
-          <h1>Laughing Goat Ghana / Surfcamp in Busua Beachs</h1>
+          <h1>Laughing Goat Ghana / Surfcamp in Busua Beach</h1>
           <Paragraf>
             Welcome to visit Laughing Goat in Busua Beach only 2 minutes walk to the beach. Nice and clean rooms and super friendly staff.
           </Paragraf>
