@@ -15,6 +15,7 @@ const Main = ({ children }) => (
         top:0;
         left:0;
         width: 100%;
+        padding: 0 10px;
       }
       `}</style>
   </div>

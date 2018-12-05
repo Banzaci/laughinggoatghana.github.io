@@ -11,7 +11,7 @@ const PageImage = ({ src, style }) => (
       height:720px;
       max-width: 100%;
       width: 100%;
-      background: url(${src}) no-repeat center center fixed;
+      background: url(${src}) no-repeat top center fixed;
       background-size: 100%;
     `}</style>
   </div>

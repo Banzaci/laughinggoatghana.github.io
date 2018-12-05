@@ -22,7 +22,7 @@ const Home = () => (
         </div>
       </Container>
     </Block>
-    <Block style={{marginTop: 120}}><Rooms /></Block>
+    <Block><Rooms /></Block>
     <Block><Tours /></Block>
     <Block><Surfing /></Block>
     <Block><Instagram /></Block>
