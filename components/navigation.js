@@ -3,7 +3,7 @@ import Link from 'next/link'
 const linkList = [
   {name:'Home', url:'/'},
   {name:'Rooms', url:'/rooms'},
-  {name:'Tours', url:'/tours'},
+  // {name:'Tours', url:'/tours'},
   {name:'Surfing', url:'/surfing'},
   {name:'Food', url:'/food'},
   {name:'Contact', url:'/contact'},

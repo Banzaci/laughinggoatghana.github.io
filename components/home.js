@@ -23,7 +23,6 @@ const Home = () => (
       </Container>
     </Block>
     <Block><Rooms /></Block>
-    <Block><Tours /></Block>
     <Block><Surfing /></Block>
     <Block><Instagram /></Block>
     <style jsx>{`

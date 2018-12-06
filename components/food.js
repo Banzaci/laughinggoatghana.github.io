@@ -32,17 +32,18 @@ const Food = () => (
       <Paragraf>At Laughing Goat we serve fresh plant based food. Guests recevies 10% off on all food items on the menu.</Paragraf>
       <Paragraf>
         Breakfast serves between <strong>8am-10am</strong><br/>
-        Lunch serves between <strong>11am-15pm</strong><br/>
-        Dinner serves between <strong>17pm-20pm</strong><br/><br/>
+        Lunch serves between <strong>11:30am-3pm</strong><br/>
+        Dinner serves between <strong>5pm-8pm</strong><br/><br/>
       </Paragraf>
       <FoodBlock title="Breakfast" items={[
         'Avocado toast on hummus with mayonnaise. / ¢18',
-        'Muesli with "milk". / ¢14'
+        'Muesli with "milk". / ¢14',
+        'Pancakes with banana". / ¢15'
       ]} />
       <FoodBlock title="Lunch / Dinner" items={[
         'Bean burger with fried potatoes. / ¢22',
-        'Surfers italian pasta with a touch of pepper. / ¢19',
-        "Laughing Goat's awsome lentils coconut stew with rice. / ¢19"
+        'Surfers italian pasta with a touch of chili. / ¢20',
+        "Laughing Goat's awsome indian lentils coconut stew with rice. / ¢20"
       ]} />
       <FoodBlock title="Non alcoholic drinks" items={[
         'Fresh orange juice. / ¢8',
@@ -55,8 +56,8 @@ const Food = () => (
         'Laughing Goat drink. / ¢15',
         'Pina colada. / ¢15',
         'Whiskey & coke. / ¢15',
-        'White wine & sprite. / ¢12',
-        'Smirnoff ice. / ¢7',
+        'White wine & sprite. / ¢15',
+        '... and much more.',
       ]} />
     </Container>
 )
