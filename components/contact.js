@@ -7,16 +7,28 @@ const Contact = () => (
   <Container>
     <Title content="Contact" />
     <Paragraf>
-      Have a question for The Laughing Goat or want to book accommodation? We would love to hear from you. Please send an email to us and we will reply as soon as we can.
+      Have a question for The Laughing Goat or want to book accommodation? We would love to hear from you. Please send an email to us and we will reply as soon as we can. You can also  <a href="tel:+233545810245">call us.</a>
     </Paragraf>
-    <img src="../static/map.png" />
+    <div className="img-container"><img src="../static/map.png" /></div>
     <Button
       text="Contact us"
       href="mailto:laughinggoatghana@gmail.com"
     />
     <style jsx>{`
-      img {
+      .img-container {
         width: 100%;
+        text-align:center;
+      }
+      img {
+        max-width: 80%;
+      }
+      @media (max-width:500px) {
+        .img-container {
+          max-width: 100%;
+        }
+        img {
+          margin-top:10px;
+        }
       }
     `}</style>
   </Container>
