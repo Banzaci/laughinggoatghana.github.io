@@ -1,7 +1,5 @@
-const styles = {}
-
 const PageImage = ({ src, style }) => (
-  <div className="image">
+  <div className="image" style={style}>
     <style jsx>{`
     .image {
       position: absolute;
@@ -13,6 +11,7 @@ const PageImage = ({ src, style }) => (
       width: 100%;
       background: url(${src}) no-repeat top center fixed;
       background-size: 100%;
+    }
     `}</style>
   </div>
 )

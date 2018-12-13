@@ -6,6 +6,7 @@ const linkList = [
   // {name:'Tours', url:'/tours'},
   {name:'Surfing', url:'/surfing'},
   {name:'Food', url:'/food'},
+  {name:'Articles', url:'/articles'},
   {name:'Contact', url:'/contact'},
 ]
 
