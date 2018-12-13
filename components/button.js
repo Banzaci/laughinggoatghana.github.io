@@ -7,7 +7,7 @@ const Button = ({ text, href }) => (
         background-color: rgb(255,165,0);
         border-radius: 30px;
         max-width: 200px;
-        margin: 30px auto 0;
+        margin: 30px auto;
         padding: 10px 0;
       }
       .button-href {

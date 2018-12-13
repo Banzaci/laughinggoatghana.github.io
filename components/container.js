@@ -11,6 +11,12 @@ const Container = ({children}) => (
         background: rgba(255, 255, 255, .94);
         box-shadow: 0px 0px 10px rgba(0, 0, 0, .1);
       }
+      @media (max-width:500px) {
+        .container {
+          padding: 6px 14px;
+          margin: 0 auto;
+        }
+      }
       `}</style>
   </div>
 )

@@ -30,14 +30,19 @@ const navigation = () => (linkList.map(({name, url}, index)=> <li>
   `}</style>
 </li> ))
 
-const logo = () => (<div className="logo">
+const logo = () => (
+  <div className="logo">
   <img src="../static/LOGO_white.svg" />
   <style jsx>{`
     .logo {
-      width: 150px;
+      width:150px;
+    }
+    img {
+      width:100%;
     }
     @media (max-width:500px) {
       .logo {
+        width: 100%;
       }
     }
   }
@@ -54,7 +59,7 @@ export default () => (
         .nav-container {
           display: flex;
           align-items: flex-end;
-          margin: 0 auto,
+          margin: 0 auto;
         }
         ul {
           margin-bottom: 30px;
@@ -63,6 +68,10 @@ export default () => (
         @media (max-width:500px) {
           ul {
             margin-top: 20px;
+          }
+          .nav-container {
+            display: flex;
+            align-items: none;
           }
         }
       }

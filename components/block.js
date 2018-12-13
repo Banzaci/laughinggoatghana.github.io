@@ -6,6 +6,11 @@ const Block = ({ children, style }) => (
         max-width: 900px;
         margin: 50px auto 0;
       }
+      @media (max-width:500px) {
+        .block {
+          margin: 0 auto 20px;
+        }
+      }
       `}</style>
   </div>
 )
