@@ -32,22 +32,22 @@ const navigation = () => (linkList.map(({name, url}, index)=> <li>
 
 const logo = () => (
   <div className="logo">
-  <img src="../static/LOGO_white.svg" />
-  <style jsx>{`
-    .logo {
-      width:150px;
-    }
-    img {
-      width:100%;
-    }
-    @media (max-width:500px) {
+    <img src="../static/LOGO_white.svg" />
+    <style jsx>{`
       .logo {
-        width: 100%;
+        width:150px;
+      }
+      img {
+        width:100%;
+      }
+      @media (max-width:500px) {
+        .logo {
+          width: 100%;
+        }
       }
     }
-  }
-  `}</style>
-</div>)
+    `}</style>
+  </div>)
 
 export default () => (
   <nav className="nav-container">

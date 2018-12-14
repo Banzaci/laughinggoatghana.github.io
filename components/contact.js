@@ -7,7 +7,7 @@ const Contact = () => (
   <Container>
     <Title content="Contact" />
     <Paragraf>
-      Have a question for The Laughing Goat or want to book accommodation? We would love to hear from you. Please send an email to us and we will reply as soon as we can. You can also  <a href="tel:+233545810245">call us.</a>
+      Have a question for The Laughing Goat or want to book accommodation? We would love to hear from you. Please send an email to us and we will reply as soon as we can. You can also call us on <a style={{color: 'black', fontWeight: 'bold'}} href="tel:+233545810245">+233545810245.</a>
     </Paragraf>
     <div className="img-container"><img src="../static/map.png" /></div>
     <Button

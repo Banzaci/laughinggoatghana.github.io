@@ -1,24 +1,16 @@
 import Head from './head'
 import Navigation from './navigation'
 import Wrapper from './wrapper'
+import Layout from './layout'
 
 const Main = ({ children }) => (
-  <div className="wrapper">
+  <Layout>
     <Head />
     <Navigation />
     <Wrapper>
       { children }
     </Wrapper>
-    <style jsx>{`
-      .wrapper {
-        position: absolute;
-        top:0;
-        left:0;
-        width: 100%;
-        padding: 0 10px;
-      }
-      `}</style>
-  </div>
+  </Layout>
 )
 
 export default Main

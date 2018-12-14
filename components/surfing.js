@@ -44,7 +44,7 @@ const render = () => surfing.map(({ title, image, ingress }, index) => (
 const Surfing = () => (
     <Container>
       <Title content="Surfing / skateboarding" />
-      <Paragraf>At Laughing Goat you can rent surfboards. If you rent long term, we will reduce the price for you.</Paragraf>
+      <Paragraf>At Laughing Goat you can rent surfboards. If you rent long term, we will reduce the price for you. We also offer paddle tour out to the island, yoga and a tour where you will walk around Busua and collect healthy herbs that we then cook together and drink.</Paragraf>
       <div className="surfing">
         {render()}
       </div>
