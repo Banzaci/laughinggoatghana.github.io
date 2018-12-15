@@ -37,13 +37,14 @@ const Food = () => (
       </Paragraf>
       <FoodBlock title="Breakfast" items={[
         'Avocado toast on hummus with mayonnaise. / ¢18',
-        'Muesli with "milk". / ¢14',
+        'Breakfast muesli. / ¢14',
         'Pancakes with banana". / ¢15'
       ]} />
       <FoodBlock title="Lunch / Dinner" items={[
         'Bean burger with fried potatoes. / ¢22',
-        'Surfers italian pasta with a touch of chili. / ¢20',
-        "Laughing Goat's awsome indian lentils coconut stew with rice. / ¢20"
+        'Veg pasta. / ¢20',
+        'Mexican toast. / ¢20',
+        "Laughing Goat's awsome indian lentils coconut stew with rice. / ¢20",
       ]} />
       <FoodBlock title="Non alcoholic drinks" items={[
         'Fresh orange juice. / ¢8',
