@@ -5,6 +5,7 @@ import Rooms from './rooms'
 import Surfing from './surfing'
 import Container from './container'
 import Paragraf from './paragraf'
+import Package from './package'
 import BookNow from './book-now'
 
 const Home = () => (
@@ -21,6 +22,7 @@ const Home = () => (
       </Container>
     </Block>
     <Block><Rooms /></Block>
+    <Block><Package /></Block>
     <Block><Surfing /></Block>
     <Block><Instagram /></Block>
     <Block style={{marginBottom: 30, marginTop: 30}}><BookNow /></Block>
@@ -32,7 +34,7 @@ const Home = () => (
       .ingress h1 {
         margin-bottom: 20px;
       }
-      
+
       `}</style>
   </div>
 )
