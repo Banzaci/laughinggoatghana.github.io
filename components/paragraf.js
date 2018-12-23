@@ -1,4 +1,4 @@
-const Paragraf = ({ children }) => (
+const Paragraf = ({ children, bigger=false }) => (
   <div className="paragraf">
     <p>{children}</p>
     <style jsx>{`
@@ -7,8 +7,11 @@ const Paragraf = ({ children }) => (
         padding: 10px 0;
         max-width: 500px;
         margin: 0 auto;
+        ${bigger ? `font-size: 1.4em;` : ``}
       }
-      `}</style>
+      `}
+      </style>
+
   </div>
 )
 
