@@ -21,8 +21,8 @@ const Home = () => (
         </div>
       </Container>
     </Block>
-    <Block><Rooms /></Block>
     <Block><Package /></Block>
+    <Block><Rooms /></Block>
     <Block><Surfing /></Block>
     <Block><Instagram /></Block>
     <Block style={{marginBottom: 30, marginTop: 30}}><BookNow /></Block>

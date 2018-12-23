@@ -1,7 +1,6 @@
 const Price = ({ price, save }) => (
   <div className="paragraf">
     <h3>{price}</h3>
-    <h4>* save {save}</h4>
     <style jsx>{`
       h3 {
         margin-bottom:5px;

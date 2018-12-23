@@ -6,23 +6,26 @@ import Button from './button'
 
 const arr = [
   {
-    header: 'One week stay with surfing',
-    paragraf:'Seven nights in double room with private bathroom including breakfast and seven meals (lunch or dinner), two surf lessons and seven days of board rental.',
-    price: 'GH₵1550 (without surfing / GH₵1100)',
-    save: 'GH₵182 (without surfing / GH₵122)',
-  },
-  {
-    header: 'Weekend deal with surfing',
-    paragraf:'Two nights in double room with private bathroom including breakfast and dinner on Saturday evening or lunch on Sunday, two surf lessons and two days of board rental.',
-    price: 'GH₵490 (without surfing / GH₵320)',
-    save: 'GH₵77 (without surfing / GH₵27)',
+    header: 'Weekend package',
+    included:[
+      'Two nights in double room with private bathroom',
+      'Two surf lessons',
+      'Two days of free use of surfboards',
+      'Breakfast included both days',
+      'One lunch or dinner'
+    ],
+    price: '$99 for one person in private bedroom ($66 per person to share a double room with private bathroom)',
   },
 ]
-const render = () => arr.map(({header, paragraf, price, save}, index) => (<div className="block">
+const renderIncluded = (included) => included.map(list => <li>- {list}</li>)
+const render = () => arr.map(({header, included, price}, index) => (<div className="block">
   <SubHeader>{header}</SubHeader>
-  <Paragraf>{paragraf}</Paragraf>
-  <Price price={price} save={save} />
+  <Paragraf><ul>{renderIncluded(included)}</ul></Paragraf>
+  <Price price={price} />
   <style jsx>{`
+    ul {
+      flex-direction: column;
+    }
   .block {
     ${index !== (arr.length-1) && `border-bottom: 1px solid #DDD;`}
     padding-bottom: 20px;

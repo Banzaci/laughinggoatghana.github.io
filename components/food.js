@@ -29,7 +29,7 @@ const FoodBlock = ({title, items}) => (
 const Food = () => (
     <Container>
       <Title content="Food & beverage" />
-      <Paragraf>At Laughing Goat we serve fresh plant based food. Guests recevies 10% off on all food items on the menu.</Paragraf>
+      <Paragraf>At Laughing Goat we serve fresh plant based food.</Paragraf>
       <Paragraf>
         Breakfast serves between <strong>8am-10am</strong><br/>
         Lunch serves between <strong>11:30am-3pm</strong><br/>
@@ -43,7 +43,7 @@ const Food = () => (
       <FoodBlock title="Lunch / Dinner" items={[
         'Bean burger with fried potatoes. / ¢22',
         'Veg pasta. / ¢20',
-        'Mexican toast. / ¢20',
+        'Mexican bean stew with fresh salad. / ¢20',
         "Laughing Goat's awsome indian lentils coconut stew with rice. / ¢20",
       ]} />
       <FoodBlock title="Non alcoholic drinks" items={[
