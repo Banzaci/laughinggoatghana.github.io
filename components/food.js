@@ -41,10 +41,11 @@ const Food = () => (
         'Pancakes with banana". / ¢15'
       ]} />
       <FoodBlock title="Lunch / Dinner" items={[
-        'Bean burger with fried potatoes. / ¢22',
-        'Veg pasta. / ¢20',
+        'Bean burger with fried potatoes. / ¢24',
+        'Italian stylish pasta. / ¢20',
         'Mexican bean stew with fresh salad. / ¢20',
         "Laughing Goat's awsome indian lentils coconut stew with rice. / ¢20",
+        'Pizza (pre order). / ¢25',
       ]} />
       <FoodBlock title="Non alcoholic drinks" items={[
         'Fresh orange juice. / ¢8',
