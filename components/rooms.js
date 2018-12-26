@@ -7,12 +7,12 @@ const rooms = [
   {
     title:"Double Room with Private Bathroom ",
     image:"../static/rooms/room4.jpg",
-    ingress:"Price, $32 per room & per night",
+    ingress:"Price, $31 per room & per night",
   },
   {
     title:"Triple Room with Private Bathroom",
     image:"../static/rooms/room2.jpg",
-    ingress:"Price, $36 per room & per night",
+    ingress:"Price, $33 per room & per night",
   },
   {
     title:"Quadruple Room with Private Bathroom",
@@ -22,7 +22,7 @@ const rooms = [
   {
     title:"Budget Single Room",
     image:"../static/rooms/room5.jpg",
-    ingress:"For one person. Price, $15 per room & per night. (for 2 people, $25)",
+    ingress:"For one person. Price, $15 per room & per night. (for 2 people, $19)",
   },
   {
     title:"Canvas Tent #1",
