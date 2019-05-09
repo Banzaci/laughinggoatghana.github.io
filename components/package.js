@@ -17,17 +17,17 @@ const arr = [
     price: '$99 for one person in private bedroom ($69 per person to share a double room with private bathroom)',
     image: 'LOGO_multi.svg',
   },
-  // {
-  //   header: 'One Week package',
-  //   included:[
-  //     'Seven nights in double room with private bathroom',
-  //     'Four surf lessons',
-  //     'Seven days of free use of surfboards',
-  //     'Breakfast included',
-  //     'Seven lunches or dinner'
-  //   ],
-  //   price: '$99 for one person in private bedroom ($69 per person to share a double room with private bathroom)',
-  // },
+  {
+    header: 'One Week deal',
+    included:[
+      'Seven nights in double room with private bathroom',
+      'Seven surf lessons',
+      'Seven days of free use of surfboards',
+      'Breakfast included',
+      'Three lunche or dinners'
+    ],
+    price: '$380 for one person in private bedroom ($299 per person to share a double room with private bathroom)',
+  },
 ]
 const logo = () => (
   <div className="logo">
