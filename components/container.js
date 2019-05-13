@@ -1,6 +1,7 @@
 const Container = ({children}) => (
   <div className="container">
     {children}
+    
     <style jsx>{`
       .container {
         border-radius: 30px;
