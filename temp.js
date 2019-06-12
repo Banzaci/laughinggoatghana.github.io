@@ -12,3 +12,5 @@ git commit -am "First commit to gh-pages branch"
 git push origin gh-pages
 git checkout master
 git push origin `git subtree split --prefix out gh-pages`:gh-pages --force
+
+//Måste ha kvar gh-pages, koppla domän på github mot denna bransh
