@@ -10,7 +10,7 @@
     "fetch": "^1.1.0",
     "instafeed.js": "^1.4.1",
     "next": "^8.1.0",
-    "node-fetch": "^2.3.0",
+    "node-fetch": "^2.6.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-ga": "^2.5.6"
